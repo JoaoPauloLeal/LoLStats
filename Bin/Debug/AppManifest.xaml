@@ -1,0 +1,12 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="LoL Stats" EntryPointType="LoL_Stats.App" RuntimeVersion="6.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="LoL Stats" Source="LoL Stats.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Toolkit" Source="Microsoft.Phone.Controls.Toolkit.dll" />
+    <AssemblyPart x:Name="Newtonsoft.Json" Source="Newtonsoft.Json.dll" />
+    <AssemblyPart Source="en-CA/LoL Stats.resources.dll" />
+    <AssemblyPart Source="en-NZ/LoL Stats.resources.dll" />
+    <AssemblyPart Source="en/LoL Stats.resources.dll" />
+    <AssemblyPart Source="pt-BR/LoL Stats.resources.dll" />
+    <AssemblyPart Source="pt-BR/Microsoft.Phone.Controls.Toolkit.resources.dll" />
+  </Deployment.Parts>
+</Deployment>

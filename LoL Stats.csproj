@@ -1,0 +1,942 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B178E8A3-4CC8-4EF1-B313-140B4373DBAC}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LoL_Stats</RootNamespace>
+    <AssemblyName>LoL Stats</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <SilverlightVersion>
+    </SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>en%3ben-CA%3ben-NZ%3bpt-BR</SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>LoL Stats_$(Configuration)_$(Platform).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>LoL_Stats.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <TargetFrameworkProfile />
+    <DefaultLanguage>en-US</DefaultLanguage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\gameStats\fellowPlayers.cs" />
+    <Compile Include="Classes\gameStats\games.cs" />
+    <Compile Include="Classes\gameStats\stats.cs" />
+    <Compile Include="Classes\ItemsBox.cs" />
+    <Compile Include="Classes\League\Entries.cs" />
+    <Compile Include="Classes\League\LeagueData.cs" />
+    <Compile Include="Classes\League\miniSeries.cs" />
+    <Compile Include="Classes\gameStats\statsgames.cs" />
+    <Compile Include="Classes\Infos.cs" />
+    <Compile Include="Classes\Summoner.cs" />
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Stats.xaml.cs">
+      <DependentUpon>Stats.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Stats.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="packages.config" />
+    <None Include="Properties\AppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\BadgeLogo.png" />
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\SquareTile150x150.png" />
+    <Content Include="Assets\SquareTile71x71.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileMediumLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\WideLogo.png" />
+    <Content Include="Images\background.jpg" />
+    <Content Include="Images\champion\1.png" />
+    <Content Include="Images\champion\10.png" />
+    <Content Include="Images\champion\101.png" />
+    <Content Include="Images\champion\102.png" />
+    <Content Include="Images\champion\103.png" />
+    <Content Include="Images\champion\104.png" />
+    <Content Include="Images\champion\105.png" />
+    <Content Include="Images\champion\106.png" />
+    <Content Include="Images\champion\107.png" />
+    <Content Include="Images\champion\11.png" />
+    <Content Include="Images\champion\110.png" />
+    <Content Include="Images\champion\111.png" />
+    <Content Include="Images\champion\112.png" />
+    <Content Include="Images\champion\113.png" />
+    <Content Include="Images\champion\114.png" />
+    <Content Include="Images\champion\115.png" />
+    <Content Include="Images\champion\117.png" />
+    <Content Include="Images\champion\119.png" />
+    <Content Include="Images\champion\12.png" />
+    <Content Include="Images\champion\120.png" />
+    <Content Include="Images\champion\121.png" />
+    <Content Include="Images\champion\122.png" />
+    <Content Include="Images\champion\126.png" />
+    <Content Include="Images\champion\127.png" />
+    <Content Include="Images\champion\13.png" />
+    <Content Include="Images\champion\131.png" />
+    <Content Include="Images\champion\133.png" />
+    <Content Include="Images\champion\134.png" />
+    <Content Include="Images\champion\14.png" />
+    <Content Include="Images\champion\143.png" />
+    <Content Include="Images\champion\15.png" />
+    <Content Include="Images\champion\150.png" />
+    <Content Include="Images\champion\154.png" />
+    <Content Include="Images\champion\157.png" />
+    <Content Include="Images\champion\16.png" />
+    <Content Include="Images\champion\161.png" />
+    <Content Include="Images\champion\17.png" />
+    <Content Include="Images\champion\18.png" />
+    <Content Include="Images\champion\19.png" />
+    <Content Include="Images\champion\2.png" />
+    <Content Include="Images\champion\20.png" />
+    <Content Include="Images\champion\201.png" />
+    <Content Include="Images\champion\21.png" />
+    <Content Include="Images\champion\22.png" />
+    <Content Include="Images\champion\222.png" />
+    <Content Include="Images\champion\23.png" />
+    <Content Include="Images\champion\236.png" />
+    <Content Include="Images\champion\238.png" />
+    <Content Include="Images\champion\24.png" />
+    <Content Include="Images\champion\25.png" />
+    <Content Include="Images\champion\254.png" />
+    <Content Include="Images\champion\26.png" />
+    <Content Include="Images\champion\266.png" />
+    <Content Include="Images\champion\267.png" />
+    <Content Include="Images\champion\268.png" />
+    <Content Include="Images\champion\27.png" />
+    <Content Include="Images\champion\28.png" />
+    <Content Include="Images\champion\29.png" />
+    <Content Include="Images\champion\3.png" />
+    <Content Include="Images\champion\30.png" />
+    <Content Include="Images\champion\31.png" />
+    <Content Include="Images\champion\32.png" />
+    <Content Include="Images\champion\33.png" />
+    <Content Include="Images\champion\34.png" />
+    <Content Include="Images\champion\35.png" />
+    <Content Include="Images\champion\36.png" />
+    <Content Include="Images\champion\37.png" />
+    <Content Include="Images\champion\38.png" />
+    <Content Include="Images\champion\39.png" />
+    <Content Include="Images\champion\4.png" />
+    <Content Include="Images\champion\40.png" />
+    <Content Include="Images\champion\41.png" />
+    <Content Include="Images\champion\412.png" />
+    <Content Include="Images\champion\42.png" />
+    <Content Include="Images\champion\429.png" />
+    <Content Include="Images\champion\43.png" />
+    <Content Include="Images\champion\44.png" />
+    <Content Include="Images\champion\45.png" />
+    <Content Include="Images\champion\48.png" />
+    <Content Include="Images\champion\5.png" />
+    <Content Include="Images\champion\50.png" />
+    <Content Include="Images\champion\51.png" />
+    <Content Include="Images\champion\53.png" />
+    <Content Include="Images\champion\54.png" />
+    <Content Include="Images\champion\55.png" />
+    <Content Include="Images\champion\56.png" />
+    <Content Include="Images\champion\57.png" />
+    <Content Include="Images\champion\58.png" />
+    <Content Include="Images\champion\59.png" />
+    <Content Include="Images\champion\6.png" />
+    <Content Include="Images\champion\60.png" />
+    <Content Include="Images\champion\61.png" />
+    <Content Include="Images\champion\62.png" />
+    <Content Include="Images\champion\63.png" />
+    <Content Include="Images\champion\64.png" />
+    <Content Include="Images\champion\67.png" />
+    <Content Include="Images\champion\68.png" />
+    <Content Include="Images\champion\69.png" />
+    <Content Include="Images\champion\7.png" />
+    <Content Include="Images\champion\72.png" />
+    <Content Include="Images\champion\74.png" />
+    <Content Include="Images\champion\75.png" />
+    <Content Include="Images\champion\76.png" />
+    <Content Include="Images\champion\77.png" />
+    <Content Include="Images\champion\78.png" />
+    <Content Include="Images\champion\79.png" />
+    <Content Include="Images\champion\8.png" />
+    <Content Include="Images\champion\80.png" />
+    <Content Include="Images\champion\81.png" />
+    <Content Include="Images\champion\82.png" />
+    <Content Include="Images\champion\83.png" />
+    <Content Include="Images\champion\84.png" />
+    <Content Include="Images\champion\85.png" />
+    <Content Include="Images\champion\86.png" />
+    <Content Include="Images\champion\89.png" />
+    <Content Include="Images\champion\9.png" />
+    <Content Include="Images\champion\90.png" />
+    <Content Include="Images\champion\91.png" />
+    <Content Include="Images\champion\92.png" />
+    <Content Include="Images\champion\96.png" />
+    <Content Include="Images\champion\98.png" />
+    <Content Include="Images\champion\99.png" />
+    <Content Include="Images\items\1001.png" />
+    <Content Include="Images\items\1004.png" />
+    <Content Include="Images\items\1006.png" />
+    <Content Include="Images\items\1011.png" />
+    <Content Include="Images\items\1018.png" />
+    <Content Include="Images\items\1026.png" />
+    <Content Include="Images\items\1027.png" />
+    <Content Include="Images\items\1028.png" />
+    <Content Include="Images\items\1029.png" />
+    <Content Include="Images\items\1031.png" />
+    <Content Include="Images\items\1033.png" />
+    <Content Include="Images\items\1036.png" />
+    <Content Include="Images\items\1037.png" />
+    <Content Include="Images\items\1038.png" />
+    <Content Include="Images\items\1039.png" />
+    <Content Include="Images\items\1042.png" />
+    <Content Include="Images\items\1043.png" />
+    <Content Include="Images\items\1051.png" />
+    <Content Include="Images\items\1052.png" />
+    <Content Include="Images\items\1053.png" />
+    <Content Include="Images\items\1054.png" />
+    <Content Include="Images\items\1055.png" />
+    <Content Include="Images\items\1056.png" />
+    <Content Include="Images\items\1057.png" />
+    <Content Include="Images\items\1058.png" />
+    <Content Include="Images\items\1062.png" />
+    <Content Include="Images\items\1063.png" />
+    <Content Include="Images\items\1074.png" />
+    <Content Include="Images\items\1075.png" />
+    <Content Include="Images\items\1076.png" />
+    <Content Include="Images\items\1080.png" />
+    <Content Include="Images\items\2003.png" />
+    <Content Include="Images\items\2004.png" />
+    <Content Include="Images\items\2009.png" />
+    <Content Include="Images\items\2010.png" />
+    <Content Include="Images\items\2037.png" />
+    <Content Include="Images\items\2039.png" />
+    <Content Include="Images\items\2040.png" />
+    <Content Include="Images\items\2041.png" />
+    <Content Include="Images\items\2043.png" />
+    <Content Include="Images\items\2044.png" />
+    <Content Include="Images\items\2045.png" />
+    <Content Include="Images\items\2047.png" />
+    <Content Include="Images\items\2048.png" />
+    <Content Include="Images\items\2049.png" />
+    <Content Include="Images\items\2050.png" />
+    <Content Include="Images\items\2051.png" />
+    <Content Include="Images\items\2052.png" />
+    <Content Include="Images\items\2053.png" />
+    <Content Include="Images\items\2137.png" />
+    <Content Include="Images\items\2138.png" />
+    <Content Include="Images\items\2139.png" />
+    <Content Include="Images\items\2140.png" />
+    <Content Include="Images\items\3001.png" />
+    <Content Include="Images\items\3003.png" />
+    <Content Include="Images\items\3004.png" />
+    <Content Include="Images\items\3005.png" />
+    <Content Include="Images\items\3006.png" />
+    <Content Include="Images\items\3007.png" />
+    <Content Include="Images\items\3008.png" />
+    <Content Include="Images\items\3009.png" />
+    <Content Include="Images\items\3010.png" />
+    <Content Include="Images\items\3020.png" />
+    <Content Include="Images\items\3022.png" />
+    <Content Include="Images\items\3023.png" />
+    <Content Include="Images\items\3024.png" />
+    <Content Include="Images\items\3025.png" />
+    <Content Include="Images\items\3026.png" />
+    <Content Include="Images\items\3027.png" />
+    <Content Include="Images\items\3028.png" />
+    <Content Include="Images\items\3029.png" />
+    <Content Include="Images\items\3031.png" />
+    <Content Include="Images\items\3035.png" />
+    <Content Include="Images\items\3040.png" />
+    <Content Include="Images\items\3041.png" />
+    <Content Include="Images\items\3042.png" />
+    <Content Include="Images\items\3043.png" />
+    <Content Include="Images\items\3044.png" />
+    <Content Include="Images\items\3046.png" />
+    <Content Include="Images\items\3047.png" />
+    <Content Include="Images\items\3048.png" />
+    <Content Include="Images\items\3050.png" />
+    <Content Include="Images\items\3056.png" />
+    <Content Include="Images\items\3057.png" />
+    <Content Include="Images\items\3060.png" />
+    <Content Include="Images\items\3065.png" />
+    <Content Include="Images\items\3067.png" />
+    <Content Include="Images\items\3068.png" />
+    <Content Include="Images\items\3069.png" />
+    <Content Include="Images\items\3070.png" />
+    <Content Include="Images\items\3071.png" />
+    <Content Include="Images\items\3072.png" />
+    <Content Include="Images\items\3073.png" />
+    <Content Include="Images\items\3074.png" />
+    <Content Include="Images\items\3075.png" />
+    <Content Include="Images\items\3077.png" />
+    <Content Include="Images\items\3078.png" />
+    <Content Include="Images\items\3082.png" />
+    <Content Include="Images\items\3083.png" />
+    <Content Include="Images\items\3084.png" />
+    <Content Include="Images\items\3085.png" />
+    <Content Include="Images\items\3086.png" />
+    <Content Include="Images\items\3087.png" />
+    <Content Include="Images\items\3089.png" />
+    <Content Include="Images\items\3090.png" />
+    <Content Include="Images\items\3091.png" />
+    <Content Include="Images\items\3092.png" />
+    <Content Include="Images\items\3093.png" />
+    <Content Include="Images\items\3096.png" />
+    <Content Include="Images\items\3097.png" />
+    <Content Include="Images\items\3098.png" />
+    <Content Include="Images\items\3100.png" />
+    <Content Include="Images\items\3101.png" />
+    <Content Include="Images\items\3102.png" />
+    <Content Include="Images\items\3104.png" />
+    <Content Include="Images\items\3105.png" />
+    <Content Include="Images\items\3106.png" />
+    <Content Include="Images\items\3108.png" />
+    <Content Include="Images\items\3110.png" />
+    <Content Include="Images\items\3111.png" />
+    <Content Include="Images\items\3112.png" />
+    <Content Include="Images\items\3113.png" />
+    <Content Include="Images\items\3114.png" />
+    <Content Include="Images\items\3115.png" />
+    <Content Include="Images\items\3116.png" />
+    <Content Include="Images\items\3117.png" />
+    <Content Include="Images\items\3122.png" />
+    <Content Include="Images\items\3123.png" />
+    <Content Include="Images\items\3124.png" />
+    <Content Include="Images\items\3128.png" />
+    <Content Include="Images\items\3131.png" />
+    <Content Include="Images\items\3134.png" />
+    <Content Include="Images\items\3135.png" />
+    <Content Include="Images\items\3136.png" />
+    <Content Include="Images\items\3137.png" />
+    <Content Include="Images\items\3139.png" />
+    <Content Include="Images\items\3140.png" />
+    <Content Include="Images\items\3141.png" />
+    <Content Include="Images\items\3142.png" />
+    <Content Include="Images\items\3143.png" />
+    <Content Include="Images\items\3144.png" />
+    <Content Include="Images\items\3145.png" />
+    <Content Include="Images\items\3146.png" />
+    <Content Include="Images\items\3151.png" />
+    <Content Include="Images\items\3152.png" />
+    <Content Include="Images\items\3153.png" />
+    <Content Include="Images\items\3154.png" />
+    <Content Include="Images\items\3155.png" />
+    <Content Include="Images\items\3156.png" />
+    <Content Include="Images\items\3157.png" />
+    <Content Include="Images\items\3158.png" />
+    <Content Include="Images\items\3159.png" />
+    <Content Include="Images\items\3160.png" />
+    <Content Include="Images\items\3165.png" />
+    <Content Include="Images\items\3166.png" />
+    <Content Include="Images\items\3167.png" />
+    <Content Include="Images\items\3168.png" />
+    <Content Include="Images\items\3169.png" />
+    <Content Include="Images\items\3170.png" />
+    <Content Include="Images\items\3171.png" />
+    <Content Include="Images\items\3172.png" />
+    <Content Include="Images\items\3174.png" />
+    <Content Include="Images\items\3175.png" />
+    <Content Include="Images\items\3180.png" />
+    <Content Include="Images\items\3181.png" />
+    <Content Include="Images\items\3184.png" />
+    <Content Include="Images\items\3185.png" />
+    <Content Include="Images\items\3187.png" />
+    <Content Include="Images\items\3188.png" />
+    <Content Include="Images\items\3190.png" />
+    <Content Include="Images\items\3191.png" />
+    <Content Include="Images\items\3196.png" />
+    <Content Include="Images\items\3197.png" />
+    <Content Include="Images\items\3198.png" />
+    <Content Include="Images\items\3200.png" />
+    <Content Include="Images\items\3204.png" />
+    <Content Include="Images\items\3205.png" />
+    <Content Include="Images\items\3206.png" />
+    <Content Include="Images\items\3207.png" />
+    <Content Include="Images\items\3208.png" />
+    <Content Include="Images\items\3209.png" />
+    <Content Include="Images\items\3211.png" />
+    <Content Include="Images\items\3222.png" />
+    <Content Include="Images\items\3250.png" />
+    <Content Include="Images\items\3251.png" />
+    <Content Include="Images\items\3252.png" />
+    <Content Include="Images\items\3253.png" />
+    <Content Include="Images\items\3254.png" />
+    <Content Include="Images\items\3255.png" />
+    <Content Include="Images\items\3256.png" />
+    <Content Include="Images\items\3257.png" />
+    <Content Include="Images\items\3258.png" />
+    <Content Include="Images\items\3259.png" />
+    <Content Include="Images\items\3260.png" />
+    <Content Include="Images\items\3261.png" />
+    <Content Include="Images\items\3262.png" />
+    <Content Include="Images\items\3263.png" />
+    <Content Include="Images\items\3264.png" />
+    <Content Include="Images\items\3265.png" />
+    <Content Include="Images\items\3266.png" />
+    <Content Include="Images\items\3267.png" />
+    <Content Include="Images\items\3268.png" />
+    <Content Include="Images\items\3269.png" />
+    <Content Include="Images\items\3270.png" />
+    <Content Include="Images\items\3271.png" />
+    <Content Include="Images\items\3272.png" />
+    <Content Include="Images\items\3273.png" />
+    <Content Include="Images\items\3274.png" />
+    <Content Include="Images\items\3275.png" />
+    <Content Include="Images\items\3276.png" />
+    <Content Include="Images\items\3277.png" />
+    <Content Include="Images\items\3278.png" />
+    <Content Include="Images\items\3279.png" />
+    <Content Include="Images\items\3280.png" />
+    <Content Include="Images\items\3281.png" />
+    <Content Include="Images\items\3282.png" />
+    <Content Include="Images\items\3283.png" />
+    <Content Include="Images\items\3284.png" />
+    <Content Include="Images\items\3290.png" />
+    <Content Include="Images\items\3301.png" />
+    <Content Include="Images\items\3302.png" />
+    <Content Include="Images\items\3303.png" />
+    <Content Include="Images\items\3340.png" />
+    <Content Include="Images\items\3341.png" />
+    <Content Include="Images\items\3342.png" />
+    <Content Include="Images\items\3345.png" />
+    <Content Include="Images\items\3361.png" />
+    <Content Include="Images\items\3362.png" />
+    <Content Include="Images\items\3363.png" />
+    <Content Include="Images\items\3364.png" />
+    <Content Include="Images\items\3401.png" />
+    <Content Include="Images\items\3405.png" />
+    <Content Include="Images\items\3406.png" />
+    <Content Include="Images\items\3407.png" />
+    <Content Include="Images\items\3408.png" />
+    <Content Include="Images\items\3409.png" />
+    <Content Include="Images\items\3410.png" />
+    <Content Include="Images\items\3411.png" />
+    <Content Include="Images\items\3412.png" />
+    <Content Include="Images\items\3413.png" />
+    <Content Include="Images\items\3414.png" />
+    <Content Include="Images\items\3415.png" />
+    <Content Include="Images\items\3416.png" />
+    <Content Include="Images\items\3417.png" />
+    <Content Include="Images\items\3418.png" />
+    <Content Include="Images\items\3419.png" />
+    <Content Include="Images\items\3420.png" />
+    <Content Include="Images\items\3421.png" />
+    <Content Include="Images\items\3422.png" />
+    <Content Include="Images\items\3450.png" />
+    <Content Include="Images\items\3451.png" />
+    <Content Include="Images\items\3452.png" />
+    <Content Include="Images\items\3453.png" />
+    <Content Include="Images\items\3454.png" />
+    <Content Include="Images\items\3455.png" />
+    <Content Include="Images\items\3460.png" />
+    <Content Include="Images\items\3504.png" />
+    <Content Include="Images\items\3508.png" />
+    <Content Include="Images\items\3599.png" />
+    <Content Include="Images\items\3706.png" />
+    <Content Include="Images\items\3707.png" />
+    <Content Include="Images\items\3708.png" />
+    <Content Include="Images\items\3709.png" />
+    <Content Include="Images\items\3710.png" />
+    <Content Include="Images\items\3711.png" />
+    <Content Include="Images\items\3713.png" />
+    <Content Include="Images\items\3714.png" />
+    <Content Include="Images\items\3715.png" />
+    <Content Include="Images\items\3716.png" />
+    <Content Include="Images\items\3717.png" />
+    <Content Include="Images\items\3718.png" />
+    <Content Include="Images\items\3719.png" />
+    <Content Include="Images\items\3720.png" />
+    <Content Include="Images\items\3721.png" />
+    <Content Include="Images\items\3722.png" />
+    <Content Include="Images\items\3723.png" />
+    <Content Include="Images\items\3724.png" />
+    <Content Include="Images\items\3725.png" />
+    <Content Include="Images\items\3726.png" />
+    <Content Include="Images\items\3800.png" />
+    <Content Include="Images\items\3801.png" />
+    <Content Include="Images\items\null.png" />
+    <Content Include="Images\profileicon\0.png" />
+    <Content Include="Images\profileicon\1.png" />
+    <Content Include="Images\profileicon\10.png" />
+    <Content Include="Images\profileicon\11.png" />
+    <Content Include="Images\profileicon\12.png" />
+    <Content Include="Images\profileicon\13.png" />
+    <Content Include="Images\profileicon\14.png" />
+    <Content Include="Images\profileicon\15.png" />
+    <Content Include="Images\profileicon\16.png" />
+    <Content Include="Images\profileicon\17.png" />
+    <Content Include="Images\profileicon\18.png" />
+    <Content Include="Images\profileicon\19.png" />
+    <Content Include="Images\profileicon\2.png" />
+    <Content Include="Images\profileicon\20.png" />
+    <Content Include="Images\profileicon\21.png" />
+    <Content Include="Images\profileicon\22.png" />
+    <Content Include="Images\profileicon\23.png" />
+    <Content Include="Images\profileicon\24.png" />
+    <Content Include="Images\profileicon\25.png" />
+    <Content Include="Images\profileicon\26.png" />
+    <Content Include="Images\profileicon\27.png" />
+    <Content Include="Images\profileicon\28.png" />
+    <Content Include="Images\profileicon\3.png" />
+    <Content Include="Images\profileicon\30.png" />
+    <Content Include="Images\profileicon\31.png" />
+    <Content Include="Images\profileicon\4.png" />
+    <Content Include="Images\profileicon\5.png" />
+    <Content Include="Images\profileicon\501.png" />
+    <Content Include="Images\profileicon\502.png" />
+    <Content Include="Images\profileicon\503.png" />
+    <Content Include="Images\profileicon\504.png" />
+    <Content Include="Images\profileicon\505.png" />
+    <Content Include="Images\profileicon\506.png" />
+    <Content Include="Images\profileicon\507.png" />
+    <Content Include="Images\profileicon\508.png" />
+    <Content Include="Images\profileicon\509.png" />
+    <Content Include="Images\profileicon\510.png" />
+    <Content Include="Images\profileicon\511.png" />
+    <Content Include="Images\profileicon\512.png" />
+    <Content Include="Images\profileicon\513.png" />
+    <Content Include="Images\profileicon\514.png" />
+    <Content Include="Images\profileicon\515.png" />
+    <Content Include="Images\profileicon\516.png" />
+    <Content Include="Images\profileicon\517.png" />
+    <Content Include="Images\profileicon\518.png" />
+    <Content Include="Images\profileicon\519.png" />
+    <Content Include="Images\profileicon\520.png" />
+    <Content Include="Images\profileicon\521.png" />
+    <Content Include="Images\profileicon\522.png" />
+    <Content Include="Images\profileicon\523.png" />
+    <Content Include="Images\profileicon\524.png" />
+    <Content Include="Images\profileicon\525.png" />
+    <Content Include="Images\profileicon\526.png" />
+    <Content Include="Images\profileicon\527.png" />
+    <Content Include="Images\profileicon\528.png" />
+    <Content Include="Images\profileicon\529.png" />
+    <Content Include="Images\profileicon\530.png" />
+    <Content Include="Images\profileicon\531.png" />
+    <Content Include="Images\profileicon\532.png" />
+    <Content Include="Images\profileicon\533.png" />
+    <Content Include="Images\profileicon\534.png" />
+    <Content Include="Images\profileicon\535.png" />
+    <Content Include="Images\profileicon\536.png" />
+    <Content Include="Images\profileicon\537.png" />
+    <Content Include="Images\profileicon\538.png" />
+    <Content Include="Images\profileicon\539.png" />
+    <Content Include="Images\profileicon\540.png" />
+    <Content Include="Images\profileicon\541.png" />
+    <Content Include="Images\profileicon\542.png" />
+    <Content Include="Images\profileicon\543.png" />
+    <Content Include="Images\profileicon\544.png" />
+    <Content Include="Images\profileicon\545.png" />
+    <Content Include="Images\profileicon\546.png" />
+    <Content Include="Images\profileicon\547.png" />
+    <Content Include="Images\profileicon\548.png" />
+    <Content Include="Images\profileicon\549.png" />
+    <Content Include="Images\profileicon\550.png" />
+    <Content Include="Images\profileicon\551.png" />
+    <Content Include="Images\profileicon\552.png" />
+    <Content Include="Images\profileicon\553.png" />
+    <Content Include="Images\profileicon\554.png" />
+    <Content Include="Images\profileicon\555.png" />
+    <Content Include="Images\profileicon\556.png" />
+    <Content Include="Images\profileicon\557.png" />
+    <Content Include="Images\profileicon\558.png" />
+    <Content Include="Images\profileicon\559.png" />
+    <Content Include="Images\profileicon\560.png" />
+    <Content Include="Images\profileicon\561.png" />
+    <Content Include="Images\profileicon\562.png" />
+    <Content Include="Images\profileicon\563.png" />
+    <Content Include="Images\profileicon\564.png" />
+    <Content Include="Images\profileicon\565.png" />
+    <Content Include="Images\profileicon\566.png" />
+    <Content Include="Images\profileicon\567.png" />
+    <Content Include="Images\profileicon\568.png" />
+    <Content Include="Images\profileicon\569.png" />
+    <Content Include="Images\profileicon\570.png" />
+    <Content Include="Images\profileicon\571.png" />
+    <Content Include="Images\profileicon\572.png" />
+    <Content Include="Images\profileicon\573.png" />
+    <Content Include="Images\profileicon\574.png" />
+    <Content Include="Images\profileicon\575.png" />
+    <Content Include="Images\profileicon\576.png" />
+    <Content Include="Images\profileicon\577.png" />
+    <Content Include="Images\profileicon\578.png" />
+    <Content Include="Images\profileicon\579.png" />
+    <Content Include="Images\profileicon\580.png" />
+    <Content Include="Images\profileicon\581.png" />
+    <Content Include="Images\profileicon\582.png" />
+    <Content Include="Images\profileicon\583.png" />
+    <Content Include="Images\profileicon\584.png" />
+    <Content Include="Images\profileicon\585.png" />
+    <Content Include="Images\profileicon\586.png" />
+    <Content Include="Images\profileicon\587.png" />
+    <Content Include="Images\profileicon\588.png" />
+    <Content Include="Images\profileicon\589.png" />
+    <Content Include="Images\profileicon\590.png" />
+    <Content Include="Images\profileicon\591.png" />
+    <Content Include="Images\profileicon\592.png" />
+    <Content Include="Images\profileicon\593.png" />
+    <Content Include="Images\profileicon\594.png" />
+    <Content Include="Images\profileicon\595.png" />
+    <Content Include="Images\profileicon\596.png" />
+    <Content Include="Images\profileicon\597.png" />
+    <Content Include="Images\profileicon\598.png" />
+    <Content Include="Images\profileicon\599.png" />
+    <Content Include="Images\profileicon\6.png" />
+    <Content Include="Images\profileicon\600.png" />
+    <Content Include="Images\profileicon\601.png" />
+    <Content Include="Images\profileicon\602.png" />
+    <Content Include="Images\profileicon\603.png" />
+    <Content Include="Images\profileicon\604.png" />
+    <Content Include="Images\profileicon\605.png" />
+    <Content Include="Images\profileicon\606.png" />
+    <Content Include="Images\profileicon\607.png" />
+    <Content Include="Images\profileicon\608.png" />
+    <Content Include="Images\profileicon\609.png" />
+    <Content Include="Images\profileicon\610.png" />
+    <Content Include="Images\profileicon\611.png" />
+    <Content Include="Images\profileicon\612.png" />
+    <Content Include="Images\profileicon\613.png" />
+    <Content Include="Images\profileicon\614.png" />
+    <Content Include="Images\profileicon\615.png" />
+    <Content Include="Images\profileicon\616.png" />
+    <Content Include="Images\profileicon\617.png" />
+    <Content Include="Images\profileicon\618.png" />
+    <Content Include="Images\profileicon\619.png" />
+    <Content Include="Images\profileicon\620.png" />
+    <Content Include="Images\profileicon\621.png" />
+    <Content Include="Images\profileicon\622.png" />
+    <Content Include="Images\profileicon\623.png" />
+    <Content Include="Images\profileicon\624.png" />
+    <Content Include="Images\profileicon\625.png" />
+    <Content Include="Images\profileicon\626.png" />
+    <Content Include="Images\profileicon\627.png" />
+    <Content Include="Images\profileicon\628.png" />
+    <Content Include="Images\profileicon\629.png" />
+    <Content Include="Images\profileicon\630.png" />
+    <Content Include="Images\profileicon\631.png" />
+    <Content Include="Images\profileicon\632.png" />
+    <Content Include="Images\profileicon\633.png" />
+    <Content Include="Images\profileicon\634.png" />
+    <Content Include="Images\profileicon\635.png" />
+    <Content Include="Images\profileicon\636.png" />
+    <Content Include="Images\profileicon\637.png" />
+    <Content Include="Images\profileicon\638.png" />
+    <Content Include="Images\profileicon\639.png" />
+    <Content Include="Images\profileicon\640.png" />
+    <Content Include="Images\profileicon\641.png" />
+    <Content Include="Images\profileicon\642.png" />
+    <Content Include="Images\profileicon\643.png" />
+    <Content Include="Images\profileicon\644.png" />
+    <Content Include="Images\profileicon\645.png" />
+    <Content Include="Images\profileicon\646.png" />
+    <Content Include="Images\profileicon\647.png" />
+    <Content Include="Images\profileicon\648.png" />
+    <Content Include="Images\profileicon\649.png" />
+    <Content Include="Images\profileicon\650.png" />
+    <Content Include="Images\profileicon\651.png" />
+    <Content Include="Images\profileicon\652.png" />
+    <Content Include="Images\profileicon\653.png" />
+    <Content Include="Images\profileicon\654.png" />
+    <Content Include="Images\profileicon\655.png" />
+    <Content Include="Images\profileicon\656.png" />
+    <Content Include="Images\profileicon\657.png" />
+    <Content Include="Images\profileicon\658.png" />
+    <Content Include="Images\profileicon\659.png" />
+    <Content Include="Images\profileicon\660.png" />
+    <Content Include="Images\profileicon\661.png" />
+    <Content Include="Images\profileicon\662.png" />
+    <Content Include="Images\profileicon\663.png" />
+    <Content Include="Images\profileicon\664.png" />
+    <Content Include="Images\profileicon\665.png" />
+    <Content Include="Images\profileicon\666.png" />
+    <Content Include="Images\profileicon\667.png" />
+    <Content Include="Images\profileicon\668.png" />
+    <Content Include="Images\profileicon\669.png" />
+    <Content Include="Images\profileicon\670.png" />
+    <Content Include="Images\profileicon\671.png" />
+    <Content Include="Images\profileicon\672.png" />
+    <Content Include="Images\profileicon\673.png" />
+    <Content Include="Images\profileicon\674.png" />
+    <Content Include="Images\profileicon\675.png" />
+    <Content Include="Images\profileicon\676.png" />
+    <Content Include="Images\profileicon\677.png" />
+    <Content Include="Images\profileicon\678.png" />
+    <Content Include="Images\profileicon\679.png" />
+    <Content Include="Images\profileicon\680.png" />
+    <Content Include="Images\profileicon\681.png" />
+    <Content Include="Images\profileicon\682.png" />
+    <Content Include="Images\profileicon\683.png" />
+    <Content Include="Images\profileicon\684.png" />
+    <Content Include="Images\profileicon\685.png" />
+    <Content Include="Images\profileicon\686.png" />
+    <Content Include="Images\profileicon\687.png" />
+    <Content Include="Images\profileicon\688.png" />
+    <Content Include="Images\profileicon\689.png" />
+    <Content Include="Images\profileicon\690.png" />
+    <Content Include="Images\profileicon\691.png" />
+    <Content Include="Images\profileicon\692.png" />
+    <Content Include="Images\profileicon\693.png" />
+    <Content Include="Images\profileicon\694.png" />
+    <Content Include="Images\profileicon\695.png" />
+    <Content Include="Images\profileicon\696.png" />
+    <Content Include="Images\profileicon\697.png" />
+    <Content Include="Images\profileicon\698.png" />
+    <Content Include="Images\profileicon\699.png" />
+    <Content Include="Images\profileicon\7.png" />
+    <Content Include="Images\profileicon\700.png" />
+    <Content Include="Images\profileicon\701.png" />
+    <Content Include="Images\profileicon\702.png" />
+    <Content Include="Images\profileicon\703.png" />
+    <Content Include="Images\profileicon\704.png" />
+    <Content Include="Images\profileicon\705.png" />
+    <Content Include="Images\profileicon\706.png" />
+    <Content Include="Images\profileicon\707.png" />
+    <Content Include="Images\profileicon\708.png" />
+    <Content Include="Images\profileicon\709.png" />
+    <Content Include="Images\profileicon\710.png" />
+    <Content Include="Images\profileicon\711.png" />
+    <Content Include="Images\profileicon\712.png" />
+    <Content Include="Images\profileicon\713.png" />
+    <Content Include="Images\profileicon\714.png" />
+    <Content Include="Images\profileicon\715.png" />
+    <Content Include="Images\profileicon\716.png" />
+    <Content Include="Images\profileicon\717.png" />
+    <Content Include="Images\profileicon\718.png" />
+    <Content Include="Images\profileicon\719.png" />
+    <Content Include="Images\profileicon\720.png" />
+    <Content Include="Images\profileicon\721.png" />
+    <Content Include="Images\profileicon\722.png" />
+    <Content Include="Images\profileicon\723.png" />
+    <Content Include="Images\profileicon\724.png" />
+    <Content Include="Images\profileicon\725.png" />
+    <Content Include="Images\profileicon\726.png" />
+    <Content Include="Images\profileicon\727.png" />
+    <Content Include="Images\profileicon\728.png" />
+    <Content Include="Images\profileicon\729.png" />
+    <Content Include="Images\profileicon\730.png" />
+    <Content Include="Images\profileicon\731.png" />
+    <Content Include="Images\profileicon\732.png" />
+    <Content Include="Images\profileicon\733.png" />
+    <Content Include="Images\profileicon\734.png" />
+    <Content Include="Images\profileicon\735.png" />
+    <Content Include="Images\profileicon\736.png" />
+    <Content Include="Images\profileicon\737.png" />
+    <Content Include="Images\profileicon\738.png" />
+    <Content Include="Images\profileicon\739.png" />
+    <Content Include="Images\profileicon\740.png" />
+    <Content Include="Images\profileicon\741.png" />
+    <Content Include="Images\profileicon\742.png" />
+    <Content Include="Images\profileicon\8.png" />
+    <Content Include="Images\profileicon\9.png" />
+    <Content Include="Images\profileicon\unknown.png" />
+    <Content Include="Images\ranked\BRONZE_I.png" />
+    <Content Include="Images\ranked\BRONZE_II.png" />
+    <Content Include="Images\ranked\BRONZE_III.png" />
+    <Content Include="Images\ranked\BRONZE_IV.png" />
+    <Content Include="Images\ranked\BRONZE_V.png" />
+    <Content Include="Images\ranked\CHALLENGER_I.png" />
+    <Content Include="Images\ranked\DIAMOND_I.png" />
+    <Content Include="Images\ranked\DIAMOND_II.png" />
+    <Content Include="Images\ranked\DIAMOND_III.png" />
+    <Content Include="Images\ranked\DIAMOND_IV.png" />
+    <Content Include="Images\ranked\DIAMOND_V.png" />
+    <Content Include="Images\ranked\GOLD_I.png" />
+    <Content Include="Images\ranked\GOLD_II.png" />
+    <Content Include="Images\ranked\GOLD_III.png" />
+    <Content Include="Images\ranked\GOLD_IV.png" />
+    <Content Include="Images\ranked\GOLD_V.png" />
+    <Content Include="Images\ranked\MASTER_I.png" />
+    <Content Include="Images\ranked\PLATINUM_I.png" />
+    <Content Include="Images\ranked\PLATINUM_II.png" />
+    <Content Include="Images\ranked\PLATINUM_III.png" />
+    <Content Include="Images\ranked\PLATINUM_IV.png" />
+    <Content Include="Images\ranked\PLATINUM_V.png" />
+    <Content Include="Images\ranked\SILVER_I.png" />
+    <Content Include="Images\ranked\SILVER_II.png" />
+    <Content Include="Images\ranked\SILVER_III.png" />
+    <Content Include="Images\ranked\SILVER_IV.png" />
+    <Content Include="Images\ranked\SILVER_V.png" />
+    <Content Include="Images\ranked\unknown.png" />
+    <Content Include="Images\series\lose.png" />
+    <Content Include="Images\series\null.png" />
+    <Content Include="Images\series\win.png" />
+    <Content Include="Images\spells\1.png" />
+    <Content Include="Images\spells\10.png" />
+    <Content Include="Images\spells\11.png" />
+    <Content Include="Images\spells\12.png" />
+    <Content Include="Images\spells\13.png" />
+    <Content Include="Images\spells\14.png" />
+    <Content Include="Images\spells\17.png" />
+    <Content Include="Images\spells\2.png" />
+    <Content Include="Images\spells\21.png" />
+    <Content Include="Images\spells\3.png" />
+    <Content Include="Images\spells\4.png" />
+    <Content Include="Images\spells\6.png" />
+    <Content Include="Images\spells\7.png" />
+    <Content Include="large.png" />
+    <Content Include="medio.png" />
+    <Content Include="README_FIRST.txt" />
+    <Content Include="small.png" />
+    <Content Include="statsicon.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Add.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Delete.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.en-CA.resx" />
+    <EmbeddedResource Include="Resources\AppResources.en-NZ.resx" />
+    <EmbeddedResource Include="Resources\AppResources.en.resx" />
+    <EmbeddedResource Include="Resources\AppResources.pt-BR.resx" />
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone.Controls.Toolkit">
+      <HintPath>packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>packages\Newtonsoft.Json.6.0.6\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

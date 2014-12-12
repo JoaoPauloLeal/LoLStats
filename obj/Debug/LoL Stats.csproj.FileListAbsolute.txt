@@ -1,0 +1,324 @@
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\Assets\ApplicationIcon.png
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\LoL Stats.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\LoL Stats.pdb
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\AppManifest.xaml
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\Properties\WMAppManifest.xml
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\LoL_Stats_Debug_AnyCPU.xap
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\obj\Debug\App.g.cs
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\obj\Debug\MainPage.g.cs
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\obj\Debug\LoL Stats.g.resources
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\obj\Debug\LoL_Stats.Resources.AppResources.resources
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\obj\Debug\LoL Stats.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\obj\Debug\LoL Stats.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\obj\Debug\LoL Stats.pdb
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\obj\Debug\XapCacheFile.xml
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\obj\Debug\Pages\Stats.g.cs
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\LoL Stats.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\LoL Stats.pdb
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\AppManifest.xaml
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\LoL_Stats_Debug_AnyCPU.xap
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\obj\Debug\LoL Stats.csprojResolveAssemblyReference.cache
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\obj\Debug\App.g.cs
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\obj\Debug\MainPage.g.cs
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\obj\Debug\Pages\Stats.g.cs
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\obj\Debug\LoL Stats.g.resources
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\obj\Debug\LoL_Stats.Resources.AppResources.resources
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\obj\Debug\LoL Stats.csproj.GenerateResource.Cache
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\obj\Debug\LoL Stats.dll
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\obj\Debug\LoL Stats.pdb
+C:\Users\Alisson\documents\visual studio 2013\Projects\LoL Stats\obj\Debug\XapCacheFile.xml
+D:\Documents\Visual Studio 2013\Projects\LoL Stats\obj\Debug\LoL Stats.csprojResolveAssemblyReference.cache
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\LoL Stats.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\LoL Stats.pdb
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\AppManifest.xaml
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\LoL_Stats_Debug_AnyCPU.xap
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\obj\Debug\LoL Stats.csprojResolveAssemblyReference.cache
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\obj\Debug\App.g.cs
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\obj\Debug\MainPage.g.cs
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\obj\Debug\Pages\Stats.g.cs
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\obj\Debug\LoL Stats.g.resources
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\obj\Debug\LoL_Stats.Resources.AppResources.resources
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\obj\Debug\LoL Stats.csproj.GenerateResource.Cache
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\obj\Debug\LoL Stats.dll
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\obj\Debug\LoL Stats.pdb
+C:\Users\Alisson\Compartilhado\LoL Stats(old)\obj\Debug\XapCacheFile.xml
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\LoL Stats.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\LoL Stats.pdb
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\en-CA\LoL Stats.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\en-NZ\LoL Stats.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\en\LoL Stats.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\pt-BR\LoL Stats.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\resources.pri
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\AppxManifest.xml
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\LoL Stats.build.appxrecipe
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\AppManifest.xaml
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\LoL Stats_Debug_AnyCPU.xap
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\App.g.cs
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\MainPage.g.cs
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\Pages\Stats.g.cs
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\LoL Stats.g.resources
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\LoL_Stats.Resources.AppResources.resources
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\LoL_Stats.Resources.AppResources.en-CA.resources
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\LoL_Stats.Resources.AppResources.en-NZ.resources
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\LoL_Stats.Resources.AppResources.en.resources
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\LoL_Stats.Resources.AppResources.pt-BR.resources
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\LoL Stats.csproj.GenerateResource.Cache
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\en-CA\LoL Stats.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\en-NZ\LoL Stats.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\en\LoL Stats.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\pt-BR\LoL Stats.resources.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\LoL Stats.dll
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\LoL Stats.pdb
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\priconfig.xml
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\priconfig.xml.intermediate
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\layout.resfiles
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\layout.resfiles.intermediate
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\resources.resfiles
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\resources.resfiles.intermediate
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\pri.resfiles
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\pri.resfiles.intermediate
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\qualifiers.txt
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\ProjectArchitectures.txt
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\MDILProjectFiles.xml
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\XapCacheFile.xml
+C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\LoL Stats.csprojResolveAssemblyReference.cache

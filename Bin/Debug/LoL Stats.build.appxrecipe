@@ -1,0 +1,2433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HOME</Machine>
+    <WindowsUser>Alisson</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b178e8a3-4cc8-4ef1-b313-140b4373dbac</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Alisson\Compartilhado\LoL Stats\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\LoL Stats.dll">
+      <PackagePath>LoL Stats.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll">
+      <PackagePath>Microsoft.Phone.Controls.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\Newtonsoft.Json.6.0.6\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\WPtoolkit.4.2013.08.16\lib\wp8\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\packages\Newtonsoft.Json.6.0.6\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.xml">
+      <PackagePath>Newtonsoft.Json.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\1.png">
+      <PackagePath>Images\champion\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\10.png">
+      <PackagePath>Images\champion\10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\101.png">
+      <PackagePath>Images\champion\101.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\102.png">
+      <PackagePath>Images\champion\102.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\103.png">
+      <PackagePath>Images\champion\103.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\104.png">
+      <PackagePath>Images\champion\104.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\105.png">
+      <PackagePath>Images\champion\105.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\106.png">
+      <PackagePath>Images\champion\106.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\107.png">
+      <PackagePath>Images\champion\107.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\11.png">
+      <PackagePath>Images\champion\11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\110.png">
+      <PackagePath>Images\champion\110.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\111.png">
+      <PackagePath>Images\champion\111.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\112.png">
+      <PackagePath>Images\champion\112.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\113.png">
+      <PackagePath>Images\champion\113.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\114.png">
+      <PackagePath>Images\champion\114.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\115.png">
+      <PackagePath>Images\champion\115.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\117.png">
+      <PackagePath>Images\champion\117.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\119.png">
+      <PackagePath>Images\champion\119.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\12.png">
+      <PackagePath>Images\champion\12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\120.png">
+      <PackagePath>Images\champion\120.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\121.png">
+      <PackagePath>Images\champion\121.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\122.png">
+      <PackagePath>Images\champion\122.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\126.png">
+      <PackagePath>Images\champion\126.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\127.png">
+      <PackagePath>Images\champion\127.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\13.png">
+      <PackagePath>Images\champion\13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\131.png">
+      <PackagePath>Images\champion\131.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\133.png">
+      <PackagePath>Images\champion\133.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\134.png">
+      <PackagePath>Images\champion\134.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\14.png">
+      <PackagePath>Images\champion\14.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\143.png">
+      <PackagePath>Images\champion\143.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\15.png">
+      <PackagePath>Images\champion\15.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\150.png">
+      <PackagePath>Images\champion\150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\154.png">
+      <PackagePath>Images\champion\154.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\157.png">
+      <PackagePath>Images\champion\157.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\16.png">
+      <PackagePath>Images\champion\16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\161.png">
+      <PackagePath>Images\champion\161.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\17.png">
+      <PackagePath>Images\champion\17.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\18.png">
+      <PackagePath>Images\champion\18.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\19.png">
+      <PackagePath>Images\champion\19.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\2.png">
+      <PackagePath>Images\champion\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\20.png">
+      <PackagePath>Images\champion\20.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\201.png">
+      <PackagePath>Images\champion\201.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\21.png">
+      <PackagePath>Images\champion\21.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\22.png">
+      <PackagePath>Images\champion\22.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\222.png">
+      <PackagePath>Images\champion\222.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\23.png">
+      <PackagePath>Images\champion\23.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\236.png">
+      <PackagePath>Images\champion\236.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\238.png">
+      <PackagePath>Images\champion\238.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\24.png">
+      <PackagePath>Images\champion\24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\25.png">
+      <PackagePath>Images\champion\25.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\254.png">
+      <PackagePath>Images\champion\254.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\26.png">
+      <PackagePath>Images\champion\26.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\266.png">
+      <PackagePath>Images\champion\266.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\267.png">
+      <PackagePath>Images\champion\267.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\268.png">
+      <PackagePath>Images\champion\268.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\27.png">
+      <PackagePath>Images\champion\27.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\28.png">
+      <PackagePath>Images\champion\28.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\29.png">
+      <PackagePath>Images\champion\29.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\3.png">
+      <PackagePath>Images\champion\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\30.png">
+      <PackagePath>Images\champion\30.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\31.png">
+      <PackagePath>Images\champion\31.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\32.png">
+      <PackagePath>Images\champion\32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\33.png">
+      <PackagePath>Images\champion\33.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\34.png">
+      <PackagePath>Images\champion\34.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\35.png">
+      <PackagePath>Images\champion\35.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\36.png">
+      <PackagePath>Images\champion\36.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\37.png">
+      <PackagePath>Images\champion\37.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\38.png">
+      <PackagePath>Images\champion\38.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\39.png">
+      <PackagePath>Images\champion\39.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\4.png">
+      <PackagePath>Images\champion\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\40.png">
+      <PackagePath>Images\champion\40.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\41.png">
+      <PackagePath>Images\champion\41.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\412.png">
+      <PackagePath>Images\champion\412.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\42.png">
+      <PackagePath>Images\champion\42.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\429.png">
+      <PackagePath>Images\champion\429.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\43.png">
+      <PackagePath>Images\champion\43.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\44.png">
+      <PackagePath>Images\champion\44.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\45.png">
+      <PackagePath>Images\champion\45.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\48.png">
+      <PackagePath>Images\champion\48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\5.png">
+      <PackagePath>Images\champion\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\50.png">
+      <PackagePath>Images\champion\50.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\51.png">
+      <PackagePath>Images\champion\51.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\53.png">
+      <PackagePath>Images\champion\53.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\54.png">
+      <PackagePath>Images\champion\54.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\55.png">
+      <PackagePath>Images\champion\55.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\56.png">
+      <PackagePath>Images\champion\56.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\57.png">
+      <PackagePath>Images\champion\57.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\58.png">
+      <PackagePath>Images\champion\58.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\59.png">
+      <PackagePath>Images\champion\59.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\6.png">
+      <PackagePath>Images\champion\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\60.png">
+      <PackagePath>Images\champion\60.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\61.png">
+      <PackagePath>Images\champion\61.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\62.png">
+      <PackagePath>Images\champion\62.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\63.png">
+      <PackagePath>Images\champion\63.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\64.png">
+      <PackagePath>Images\champion\64.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\67.png">
+      <PackagePath>Images\champion\67.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\68.png">
+      <PackagePath>Images\champion\68.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\69.png">
+      <PackagePath>Images\champion\69.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\7.png">
+      <PackagePath>Images\champion\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\72.png">
+      <PackagePath>Images\champion\72.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\74.png">
+      <PackagePath>Images\champion\74.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\75.png">
+      <PackagePath>Images\champion\75.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\76.png">
+      <PackagePath>Images\champion\76.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\77.png">
+      <PackagePath>Images\champion\77.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\78.png">
+      <PackagePath>Images\champion\78.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\79.png">
+      <PackagePath>Images\champion\79.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\8.png">
+      <PackagePath>Images\champion\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\80.png">
+      <PackagePath>Images\champion\80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\81.png">
+      <PackagePath>Images\champion\81.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\82.png">
+      <PackagePath>Images\champion\82.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\83.png">
+      <PackagePath>Images\champion\83.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\84.png">
+      <PackagePath>Images\champion\84.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\85.png">
+      <PackagePath>Images\champion\85.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\86.png">
+      <PackagePath>Images\champion\86.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\89.png">
+      <PackagePath>Images\champion\89.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\9.png">
+      <PackagePath>Images\champion\9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\90.png">
+      <PackagePath>Images\champion\90.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\91.png">
+      <PackagePath>Images\champion\91.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\92.png">
+      <PackagePath>Images\champion\92.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\96.png">
+      <PackagePath>Images\champion\96.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\98.png">
+      <PackagePath>Images\champion\98.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\champion\99.png">
+      <PackagePath>Images\champion\99.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1001.png">
+      <PackagePath>Images\items\1001.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1004.png">
+      <PackagePath>Images\items\1004.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1006.png">
+      <PackagePath>Images\items\1006.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1011.png">
+      <PackagePath>Images\items\1011.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1018.png">
+      <PackagePath>Images\items\1018.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1026.png">
+      <PackagePath>Images\items\1026.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1027.png">
+      <PackagePath>Images\items\1027.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1028.png">
+      <PackagePath>Images\items\1028.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1029.png">
+      <PackagePath>Images\items\1029.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1031.png">
+      <PackagePath>Images\items\1031.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1033.png">
+      <PackagePath>Images\items\1033.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1036.png">
+      <PackagePath>Images\items\1036.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1037.png">
+      <PackagePath>Images\items\1037.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1038.png">
+      <PackagePath>Images\items\1038.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1039.png">
+      <PackagePath>Images\items\1039.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1042.png">
+      <PackagePath>Images\items\1042.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1043.png">
+      <PackagePath>Images\items\1043.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1051.png">
+      <PackagePath>Images\items\1051.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1052.png">
+      <PackagePath>Images\items\1052.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1053.png">
+      <PackagePath>Images\items\1053.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1054.png">
+      <PackagePath>Images\items\1054.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1055.png">
+      <PackagePath>Images\items\1055.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1056.png">
+      <PackagePath>Images\items\1056.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1057.png">
+      <PackagePath>Images\items\1057.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1058.png">
+      <PackagePath>Images\items\1058.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1062.png">
+      <PackagePath>Images\items\1062.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1063.png">
+      <PackagePath>Images\items\1063.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1074.png">
+      <PackagePath>Images\items\1074.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1075.png">
+      <PackagePath>Images\items\1075.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1076.png">
+      <PackagePath>Images\items\1076.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\1080.png">
+      <PackagePath>Images\items\1080.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2003.png">
+      <PackagePath>Images\items\2003.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2004.png">
+      <PackagePath>Images\items\2004.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2009.png">
+      <PackagePath>Images\items\2009.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2010.png">
+      <PackagePath>Images\items\2010.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2037.png">
+      <PackagePath>Images\items\2037.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2039.png">
+      <PackagePath>Images\items\2039.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2040.png">
+      <PackagePath>Images\items\2040.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2041.png">
+      <PackagePath>Images\items\2041.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2043.png">
+      <PackagePath>Images\items\2043.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2044.png">
+      <PackagePath>Images\items\2044.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2045.png">
+      <PackagePath>Images\items\2045.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2047.png">
+      <PackagePath>Images\items\2047.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2048.png">
+      <PackagePath>Images\items\2048.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2049.png">
+      <PackagePath>Images\items\2049.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2050.png">
+      <PackagePath>Images\items\2050.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2051.png">
+      <PackagePath>Images\items\2051.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2052.png">
+      <PackagePath>Images\items\2052.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2053.png">
+      <PackagePath>Images\items\2053.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2137.png">
+      <PackagePath>Images\items\2137.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2138.png">
+      <PackagePath>Images\items\2138.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2139.png">
+      <PackagePath>Images\items\2139.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\2140.png">
+      <PackagePath>Images\items\2140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3001.png">
+      <PackagePath>Images\items\3001.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3003.png">
+      <PackagePath>Images\items\3003.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3004.png">
+      <PackagePath>Images\items\3004.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3005.png">
+      <PackagePath>Images\items\3005.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3006.png">
+      <PackagePath>Images\items\3006.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3007.png">
+      <PackagePath>Images\items\3007.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3008.png">
+      <PackagePath>Images\items\3008.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3009.png">
+      <PackagePath>Images\items\3009.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3010.png">
+      <PackagePath>Images\items\3010.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3020.png">
+      <PackagePath>Images\items\3020.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3022.png">
+      <PackagePath>Images\items\3022.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3023.png">
+      <PackagePath>Images\items\3023.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3024.png">
+      <PackagePath>Images\items\3024.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3025.png">
+      <PackagePath>Images\items\3025.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3026.png">
+      <PackagePath>Images\items\3026.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3027.png">
+      <PackagePath>Images\items\3027.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3028.png">
+      <PackagePath>Images\items\3028.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3029.png">
+      <PackagePath>Images\items\3029.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3031.png">
+      <PackagePath>Images\items\3031.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3035.png">
+      <PackagePath>Images\items\3035.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3040.png">
+      <PackagePath>Images\items\3040.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3041.png">
+      <PackagePath>Images\items\3041.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3042.png">
+      <PackagePath>Images\items\3042.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3043.png">
+      <PackagePath>Images\items\3043.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3044.png">
+      <PackagePath>Images\items\3044.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3046.png">
+      <PackagePath>Images\items\3046.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3047.png">
+      <PackagePath>Images\items\3047.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3048.png">
+      <PackagePath>Images\items\3048.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3050.png">
+      <PackagePath>Images\items\3050.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3056.png">
+      <PackagePath>Images\items\3056.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3057.png">
+      <PackagePath>Images\items\3057.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3060.png">
+      <PackagePath>Images\items\3060.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3065.png">
+      <PackagePath>Images\items\3065.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3067.png">
+      <PackagePath>Images\items\3067.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3068.png">
+      <PackagePath>Images\items\3068.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3069.png">
+      <PackagePath>Images\items\3069.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3070.png">
+      <PackagePath>Images\items\3070.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3071.png">
+      <PackagePath>Images\items\3071.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3072.png">
+      <PackagePath>Images\items\3072.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3073.png">
+      <PackagePath>Images\items\3073.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3074.png">
+      <PackagePath>Images\items\3074.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3075.png">
+      <PackagePath>Images\items\3075.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3077.png">
+      <PackagePath>Images\items\3077.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3078.png">
+      <PackagePath>Images\items\3078.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3082.png">
+      <PackagePath>Images\items\3082.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3083.png">
+      <PackagePath>Images\items\3083.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3084.png">
+      <PackagePath>Images\items\3084.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3085.png">
+      <PackagePath>Images\items\3085.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3086.png">
+      <PackagePath>Images\items\3086.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3087.png">
+      <PackagePath>Images\items\3087.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3089.png">
+      <PackagePath>Images\items\3089.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3090.png">
+      <PackagePath>Images\items\3090.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3091.png">
+      <PackagePath>Images\items\3091.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3092.png">
+      <PackagePath>Images\items\3092.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3093.png">
+      <PackagePath>Images\items\3093.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3096.png">
+      <PackagePath>Images\items\3096.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3097.png">
+      <PackagePath>Images\items\3097.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3098.png">
+      <PackagePath>Images\items\3098.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3100.png">
+      <PackagePath>Images\items\3100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3101.png">
+      <PackagePath>Images\items\3101.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3102.png">
+      <PackagePath>Images\items\3102.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3104.png">
+      <PackagePath>Images\items\3104.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3105.png">
+      <PackagePath>Images\items\3105.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3106.png">
+      <PackagePath>Images\items\3106.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3108.png">
+      <PackagePath>Images\items\3108.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3110.png">
+      <PackagePath>Images\items\3110.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3111.png">
+      <PackagePath>Images\items\3111.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3112.png">
+      <PackagePath>Images\items\3112.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3113.png">
+      <PackagePath>Images\items\3113.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3114.png">
+      <PackagePath>Images\items\3114.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3115.png">
+      <PackagePath>Images\items\3115.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3116.png">
+      <PackagePath>Images\items\3116.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3117.png">
+      <PackagePath>Images\items\3117.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3122.png">
+      <PackagePath>Images\items\3122.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3123.png">
+      <PackagePath>Images\items\3123.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3124.png">
+      <PackagePath>Images\items\3124.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3128.png">
+      <PackagePath>Images\items\3128.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3131.png">
+      <PackagePath>Images\items\3131.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3134.png">
+      <PackagePath>Images\items\3134.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3135.png">
+      <PackagePath>Images\items\3135.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3136.png">
+      <PackagePath>Images\items\3136.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3137.png">
+      <PackagePath>Images\items\3137.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3139.png">
+      <PackagePath>Images\items\3139.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3140.png">
+      <PackagePath>Images\items\3140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3141.png">
+      <PackagePath>Images\items\3141.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3142.png">
+      <PackagePath>Images\items\3142.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3143.png">
+      <PackagePath>Images\items\3143.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3144.png">
+      <PackagePath>Images\items\3144.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3145.png">
+      <PackagePath>Images\items\3145.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3146.png">
+      <PackagePath>Images\items\3146.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3151.png">
+      <PackagePath>Images\items\3151.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3152.png">
+      <PackagePath>Images\items\3152.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3153.png">
+      <PackagePath>Images\items\3153.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3154.png">
+      <PackagePath>Images\items\3154.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3155.png">
+      <PackagePath>Images\items\3155.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3156.png">
+      <PackagePath>Images\items\3156.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3157.png">
+      <PackagePath>Images\items\3157.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3158.png">
+      <PackagePath>Images\items\3158.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3159.png">
+      <PackagePath>Images\items\3159.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3160.png">
+      <PackagePath>Images\items\3160.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3165.png">
+      <PackagePath>Images\items\3165.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3166.png">
+      <PackagePath>Images\items\3166.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3167.png">
+      <PackagePath>Images\items\3167.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3168.png">
+      <PackagePath>Images\items\3168.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3169.png">
+      <PackagePath>Images\items\3169.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3170.png">
+      <PackagePath>Images\items\3170.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3171.png">
+      <PackagePath>Images\items\3171.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3172.png">
+      <PackagePath>Images\items\3172.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3174.png">
+      <PackagePath>Images\items\3174.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3175.png">
+      <PackagePath>Images\items\3175.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3180.png">
+      <PackagePath>Images\items\3180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3181.png">
+      <PackagePath>Images\items\3181.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3184.png">
+      <PackagePath>Images\items\3184.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3185.png">
+      <PackagePath>Images\items\3185.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3187.png">
+      <PackagePath>Images\items\3187.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3188.png">
+      <PackagePath>Images\items\3188.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3190.png">
+      <PackagePath>Images\items\3190.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3191.png">
+      <PackagePath>Images\items\3191.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3196.png">
+      <PackagePath>Images\items\3196.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3197.png">
+      <PackagePath>Images\items\3197.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3198.png">
+      <PackagePath>Images\items\3198.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3200.png">
+      <PackagePath>Images\items\3200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3204.png">
+      <PackagePath>Images\items\3204.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3205.png">
+      <PackagePath>Images\items\3205.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3206.png">
+      <PackagePath>Images\items\3206.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3207.png">
+      <PackagePath>Images\items\3207.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3208.png">
+      <PackagePath>Images\items\3208.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3209.png">
+      <PackagePath>Images\items\3209.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3211.png">
+      <PackagePath>Images\items\3211.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3222.png">
+      <PackagePath>Images\items\3222.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3250.png">
+      <PackagePath>Images\items\3250.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3251.png">
+      <PackagePath>Images\items\3251.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3252.png">
+      <PackagePath>Images\items\3252.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3253.png">
+      <PackagePath>Images\items\3253.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3254.png">
+      <PackagePath>Images\items\3254.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3255.png">
+      <PackagePath>Images\items\3255.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3256.png">
+      <PackagePath>Images\items\3256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3257.png">
+      <PackagePath>Images\items\3257.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3258.png">
+      <PackagePath>Images\items\3258.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3259.png">
+      <PackagePath>Images\items\3259.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3260.png">
+      <PackagePath>Images\items\3260.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3261.png">
+      <PackagePath>Images\items\3261.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3262.png">
+      <PackagePath>Images\items\3262.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3263.png">
+      <PackagePath>Images\items\3263.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3264.png">
+      <PackagePath>Images\items\3264.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3265.png">
+      <PackagePath>Images\items\3265.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3266.png">
+      <PackagePath>Images\items\3266.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3267.png">
+      <PackagePath>Images\items\3267.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3268.png">
+      <PackagePath>Images\items\3268.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3269.png">
+      <PackagePath>Images\items\3269.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3270.png">
+      <PackagePath>Images\items\3270.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3271.png">
+      <PackagePath>Images\items\3271.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3272.png">
+      <PackagePath>Images\items\3272.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3273.png">
+      <PackagePath>Images\items\3273.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3274.png">
+      <PackagePath>Images\items\3274.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3275.png">
+      <PackagePath>Images\items\3275.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3276.png">
+      <PackagePath>Images\items\3276.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3277.png">
+      <PackagePath>Images\items\3277.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3278.png">
+      <PackagePath>Images\items\3278.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3279.png">
+      <PackagePath>Images\items\3279.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3280.png">
+      <PackagePath>Images\items\3280.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3281.png">
+      <PackagePath>Images\items\3281.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3282.png">
+      <PackagePath>Images\items\3282.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3283.png">
+      <PackagePath>Images\items\3283.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3284.png">
+      <PackagePath>Images\items\3284.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3290.png">
+      <PackagePath>Images\items\3290.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3301.png">
+      <PackagePath>Images\items\3301.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3302.png">
+      <PackagePath>Images\items\3302.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3303.png">
+      <PackagePath>Images\items\3303.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3340.png">
+      <PackagePath>Images\items\3340.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3341.png">
+      <PackagePath>Images\items\3341.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3342.png">
+      <PackagePath>Images\items\3342.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3345.png">
+      <PackagePath>Images\items\3345.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3361.png">
+      <PackagePath>Images\items\3361.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3362.png">
+      <PackagePath>Images\items\3362.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3363.png">
+      <PackagePath>Images\items\3363.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3364.png">
+      <PackagePath>Images\items\3364.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3401.png">
+      <PackagePath>Images\items\3401.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3405.png">
+      <PackagePath>Images\items\3405.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3406.png">
+      <PackagePath>Images\items\3406.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3407.png">
+      <PackagePath>Images\items\3407.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3408.png">
+      <PackagePath>Images\items\3408.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3409.png">
+      <PackagePath>Images\items\3409.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3410.png">
+      <PackagePath>Images\items\3410.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3411.png">
+      <PackagePath>Images\items\3411.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3412.png">
+      <PackagePath>Images\items\3412.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3413.png">
+      <PackagePath>Images\items\3413.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3414.png">
+      <PackagePath>Images\items\3414.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3415.png">
+      <PackagePath>Images\items\3415.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3416.png">
+      <PackagePath>Images\items\3416.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3417.png">
+      <PackagePath>Images\items\3417.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3418.png">
+      <PackagePath>Images\items\3418.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3419.png">
+      <PackagePath>Images\items\3419.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3420.png">
+      <PackagePath>Images\items\3420.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3421.png">
+      <PackagePath>Images\items\3421.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3422.png">
+      <PackagePath>Images\items\3422.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3450.png">
+      <PackagePath>Images\items\3450.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3451.png">
+      <PackagePath>Images\items\3451.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3452.png">
+      <PackagePath>Images\items\3452.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3453.png">
+      <PackagePath>Images\items\3453.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3454.png">
+      <PackagePath>Images\items\3454.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3455.png">
+      <PackagePath>Images\items\3455.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3460.png">
+      <PackagePath>Images\items\3460.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3504.png">
+      <PackagePath>Images\items\3504.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3508.png">
+      <PackagePath>Images\items\3508.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3599.png">
+      <PackagePath>Images\items\3599.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3706.png">
+      <PackagePath>Images\items\3706.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3707.png">
+      <PackagePath>Images\items\3707.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3708.png">
+      <PackagePath>Images\items\3708.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3709.png">
+      <PackagePath>Images\items\3709.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3710.png">
+      <PackagePath>Images\items\3710.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3711.png">
+      <PackagePath>Images\items\3711.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3713.png">
+      <PackagePath>Images\items\3713.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3714.png">
+      <PackagePath>Images\items\3714.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3715.png">
+      <PackagePath>Images\items\3715.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3716.png">
+      <PackagePath>Images\items\3716.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3717.png">
+      <PackagePath>Images\items\3717.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3718.png">
+      <PackagePath>Images\items\3718.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3719.png">
+      <PackagePath>Images\items\3719.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3720.png">
+      <PackagePath>Images\items\3720.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3721.png">
+      <PackagePath>Images\items\3721.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3722.png">
+      <PackagePath>Images\items\3722.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3723.png">
+      <PackagePath>Images\items\3723.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3724.png">
+      <PackagePath>Images\items\3724.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3725.png">
+      <PackagePath>Images\items\3725.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3726.png">
+      <PackagePath>Images\items\3726.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3800.png">
+      <PackagePath>Images\items\3800.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\3801.png">
+      <PackagePath>Images\items\3801.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\items\null.png">
+      <PackagePath>Images\items\null.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\0.png">
+      <PackagePath>Images\profileicon\0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\1.png">
+      <PackagePath>Images\profileicon\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\10.png">
+      <PackagePath>Images\profileicon\10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\11.png">
+      <PackagePath>Images\profileicon\11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\12.png">
+      <PackagePath>Images\profileicon\12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\13.png">
+      <PackagePath>Images\profileicon\13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\14.png">
+      <PackagePath>Images\profileicon\14.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\15.png">
+      <PackagePath>Images\profileicon\15.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\16.png">
+      <PackagePath>Images\profileicon\16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\17.png">
+      <PackagePath>Images\profileicon\17.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\18.png">
+      <PackagePath>Images\profileicon\18.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\19.png">
+      <PackagePath>Images\profileicon\19.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\2.png">
+      <PackagePath>Images\profileicon\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\20.png">
+      <PackagePath>Images\profileicon\20.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\21.png">
+      <PackagePath>Images\profileicon\21.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\22.png">
+      <PackagePath>Images\profileicon\22.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\23.png">
+      <PackagePath>Images\profileicon\23.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\24.png">
+      <PackagePath>Images\profileicon\24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\25.png">
+      <PackagePath>Images\profileicon\25.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\26.png">
+      <PackagePath>Images\profileicon\26.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\27.png">
+      <PackagePath>Images\profileicon\27.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\28.png">
+      <PackagePath>Images\profileicon\28.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\3.png">
+      <PackagePath>Images\profileicon\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\30.png">
+      <PackagePath>Images\profileicon\30.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\31.png">
+      <PackagePath>Images\profileicon\31.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\4.png">
+      <PackagePath>Images\profileicon\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\5.png">
+      <PackagePath>Images\profileicon\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\501.png">
+      <PackagePath>Images\profileicon\501.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\502.png">
+      <PackagePath>Images\profileicon\502.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\503.png">
+      <PackagePath>Images\profileicon\503.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\504.png">
+      <PackagePath>Images\profileicon\504.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\505.png">
+      <PackagePath>Images\profileicon\505.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\506.png">
+      <PackagePath>Images\profileicon\506.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\507.png">
+      <PackagePath>Images\profileicon\507.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\508.png">
+      <PackagePath>Images\profileicon\508.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\509.png">
+      <PackagePath>Images\profileicon\509.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\510.png">
+      <PackagePath>Images\profileicon\510.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\511.png">
+      <PackagePath>Images\profileicon\511.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\512.png">
+      <PackagePath>Images\profileicon\512.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\513.png">
+      <PackagePath>Images\profileicon\513.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\514.png">
+      <PackagePath>Images\profileicon\514.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\515.png">
+      <PackagePath>Images\profileicon\515.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\516.png">
+      <PackagePath>Images\profileicon\516.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\517.png">
+      <PackagePath>Images\profileicon\517.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\518.png">
+      <PackagePath>Images\profileicon\518.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\519.png">
+      <PackagePath>Images\profileicon\519.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\520.png">
+      <PackagePath>Images\profileicon\520.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\521.png">
+      <PackagePath>Images\profileicon\521.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\522.png">
+      <PackagePath>Images\profileicon\522.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\523.png">
+      <PackagePath>Images\profileicon\523.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\524.png">
+      <PackagePath>Images\profileicon\524.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\525.png">
+      <PackagePath>Images\profileicon\525.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\526.png">
+      <PackagePath>Images\profileicon\526.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\527.png">
+      <PackagePath>Images\profileicon\527.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\528.png">
+      <PackagePath>Images\profileicon\528.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\529.png">
+      <PackagePath>Images\profileicon\529.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\530.png">
+      <PackagePath>Images\profileicon\530.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\531.png">
+      <PackagePath>Images\profileicon\531.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\532.png">
+      <PackagePath>Images\profileicon\532.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\533.png">
+      <PackagePath>Images\profileicon\533.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\534.png">
+      <PackagePath>Images\profileicon\534.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\535.png">
+      <PackagePath>Images\profileicon\535.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\536.png">
+      <PackagePath>Images\profileicon\536.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\537.png">
+      <PackagePath>Images\profileicon\537.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\538.png">
+      <PackagePath>Images\profileicon\538.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\539.png">
+      <PackagePath>Images\profileicon\539.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\540.png">
+      <PackagePath>Images\profileicon\540.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\541.png">
+      <PackagePath>Images\profileicon\541.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\542.png">
+      <PackagePath>Images\profileicon\542.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\543.png">
+      <PackagePath>Images\profileicon\543.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\544.png">
+      <PackagePath>Images\profileicon\544.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\545.png">
+      <PackagePath>Images\profileicon\545.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\546.png">
+      <PackagePath>Images\profileicon\546.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\547.png">
+      <PackagePath>Images\profileicon\547.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\548.png">
+      <PackagePath>Images\profileicon\548.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\549.png">
+      <PackagePath>Images\profileicon\549.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\550.png">
+      <PackagePath>Images\profileicon\550.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\551.png">
+      <PackagePath>Images\profileicon\551.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\552.png">
+      <PackagePath>Images\profileicon\552.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\553.png">
+      <PackagePath>Images\profileicon\553.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\554.png">
+      <PackagePath>Images\profileicon\554.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\555.png">
+      <PackagePath>Images\profileicon\555.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\556.png">
+      <PackagePath>Images\profileicon\556.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\557.png">
+      <PackagePath>Images\profileicon\557.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\558.png">
+      <PackagePath>Images\profileicon\558.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\559.png">
+      <PackagePath>Images\profileicon\559.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\560.png">
+      <PackagePath>Images\profileicon\560.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\561.png">
+      <PackagePath>Images\profileicon\561.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\562.png">
+      <PackagePath>Images\profileicon\562.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\563.png">
+      <PackagePath>Images\profileicon\563.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\564.png">
+      <PackagePath>Images\profileicon\564.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\565.png">
+      <PackagePath>Images\profileicon\565.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\566.png">
+      <PackagePath>Images\profileicon\566.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\567.png">
+      <PackagePath>Images\profileicon\567.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\568.png">
+      <PackagePath>Images\profileicon\568.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\569.png">
+      <PackagePath>Images\profileicon\569.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\570.png">
+      <PackagePath>Images\profileicon\570.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\571.png">
+      <PackagePath>Images\profileicon\571.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\572.png">
+      <PackagePath>Images\profileicon\572.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\573.png">
+      <PackagePath>Images\profileicon\573.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\574.png">
+      <PackagePath>Images\profileicon\574.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\575.png">
+      <PackagePath>Images\profileicon\575.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\576.png">
+      <PackagePath>Images\profileicon\576.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\577.png">
+      <PackagePath>Images\profileicon\577.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\578.png">
+      <PackagePath>Images\profileicon\578.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\579.png">
+      <PackagePath>Images\profileicon\579.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\580.png">
+      <PackagePath>Images\profileicon\580.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\581.png">
+      <PackagePath>Images\profileicon\581.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\582.png">
+      <PackagePath>Images\profileicon\582.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\583.png">
+      <PackagePath>Images\profileicon\583.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\584.png">
+      <PackagePath>Images\profileicon\584.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\585.png">
+      <PackagePath>Images\profileicon\585.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\586.png">
+      <PackagePath>Images\profileicon\586.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\587.png">
+      <PackagePath>Images\profileicon\587.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\588.png">
+      <PackagePath>Images\profileicon\588.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\589.png">
+      <PackagePath>Images\profileicon\589.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\590.png">
+      <PackagePath>Images\profileicon\590.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\591.png">
+      <PackagePath>Images\profileicon\591.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\592.png">
+      <PackagePath>Images\profileicon\592.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\593.png">
+      <PackagePath>Images\profileicon\593.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\594.png">
+      <PackagePath>Images\profileicon\594.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\595.png">
+      <PackagePath>Images\profileicon\595.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\596.png">
+      <PackagePath>Images\profileicon\596.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\597.png">
+      <PackagePath>Images\profileicon\597.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\598.png">
+      <PackagePath>Images\profileicon\598.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\599.png">
+      <PackagePath>Images\profileicon\599.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\6.png">
+      <PackagePath>Images\profileicon\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\600.png">
+      <PackagePath>Images\profileicon\600.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\601.png">
+      <PackagePath>Images\profileicon\601.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\602.png">
+      <PackagePath>Images\profileicon\602.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\603.png">
+      <PackagePath>Images\profileicon\603.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\604.png">
+      <PackagePath>Images\profileicon\604.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\605.png">
+      <PackagePath>Images\profileicon\605.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\606.png">
+      <PackagePath>Images\profileicon\606.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\607.png">
+      <PackagePath>Images\profileicon\607.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\608.png">
+      <PackagePath>Images\profileicon\608.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\609.png">
+      <PackagePath>Images\profileicon\609.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\610.png">
+      <PackagePath>Images\profileicon\610.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\611.png">
+      <PackagePath>Images\profileicon\611.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\612.png">
+      <PackagePath>Images\profileicon\612.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\613.png">
+      <PackagePath>Images\profileicon\613.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\614.png">
+      <PackagePath>Images\profileicon\614.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\615.png">
+      <PackagePath>Images\profileicon\615.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\616.png">
+      <PackagePath>Images\profileicon\616.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\617.png">
+      <PackagePath>Images\profileicon\617.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\618.png">
+      <PackagePath>Images\profileicon\618.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\619.png">
+      <PackagePath>Images\profileicon\619.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\620.png">
+      <PackagePath>Images\profileicon\620.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\621.png">
+      <PackagePath>Images\profileicon\621.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\622.png">
+      <PackagePath>Images\profileicon\622.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\623.png">
+      <PackagePath>Images\profileicon\623.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\624.png">
+      <PackagePath>Images\profileicon\624.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\625.png">
+      <PackagePath>Images\profileicon\625.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\626.png">
+      <PackagePath>Images\profileicon\626.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\627.png">
+      <PackagePath>Images\profileicon\627.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\628.png">
+      <PackagePath>Images\profileicon\628.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\629.png">
+      <PackagePath>Images\profileicon\629.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\630.png">
+      <PackagePath>Images\profileicon\630.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\631.png">
+      <PackagePath>Images\profileicon\631.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\632.png">
+      <PackagePath>Images\profileicon\632.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\633.png">
+      <PackagePath>Images\profileicon\633.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\634.png">
+      <PackagePath>Images\profileicon\634.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\635.png">
+      <PackagePath>Images\profileicon\635.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\636.png">
+      <PackagePath>Images\profileicon\636.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\637.png">
+      <PackagePath>Images\profileicon\637.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\638.png">
+      <PackagePath>Images\profileicon\638.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\639.png">
+      <PackagePath>Images\profileicon\639.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\640.png">
+      <PackagePath>Images\profileicon\640.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\641.png">
+      <PackagePath>Images\profileicon\641.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\642.png">
+      <PackagePath>Images\profileicon\642.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\643.png">
+      <PackagePath>Images\profileicon\643.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\644.png">
+      <PackagePath>Images\profileicon\644.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\645.png">
+      <PackagePath>Images\profileicon\645.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\646.png">
+      <PackagePath>Images\profileicon\646.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\647.png">
+      <PackagePath>Images\profileicon\647.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\648.png">
+      <PackagePath>Images\profileicon\648.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\649.png">
+      <PackagePath>Images\profileicon\649.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\650.png">
+      <PackagePath>Images\profileicon\650.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\651.png">
+      <PackagePath>Images\profileicon\651.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\652.png">
+      <PackagePath>Images\profileicon\652.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\653.png">
+      <PackagePath>Images\profileicon\653.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\654.png">
+      <PackagePath>Images\profileicon\654.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\655.png">
+      <PackagePath>Images\profileicon\655.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\656.png">
+      <PackagePath>Images\profileicon\656.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\657.png">
+      <PackagePath>Images\profileicon\657.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\658.png">
+      <PackagePath>Images\profileicon\658.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\659.png">
+      <PackagePath>Images\profileicon\659.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\660.png">
+      <PackagePath>Images\profileicon\660.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\661.png">
+      <PackagePath>Images\profileicon\661.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\662.png">
+      <PackagePath>Images\profileicon\662.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\663.png">
+      <PackagePath>Images\profileicon\663.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\664.png">
+      <PackagePath>Images\profileicon\664.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\665.png">
+      <PackagePath>Images\profileicon\665.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\666.png">
+      <PackagePath>Images\profileicon\666.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\667.png">
+      <PackagePath>Images\profileicon\667.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\668.png">
+      <PackagePath>Images\profileicon\668.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\669.png">
+      <PackagePath>Images\profileicon\669.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\670.png">
+      <PackagePath>Images\profileicon\670.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\671.png">
+      <PackagePath>Images\profileicon\671.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\672.png">
+      <PackagePath>Images\profileicon\672.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\673.png">
+      <PackagePath>Images\profileicon\673.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\674.png">
+      <PackagePath>Images\profileicon\674.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\675.png">
+      <PackagePath>Images\profileicon\675.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\676.png">
+      <PackagePath>Images\profileicon\676.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\677.png">
+      <PackagePath>Images\profileicon\677.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\678.png">
+      <PackagePath>Images\profileicon\678.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\679.png">
+      <PackagePath>Images\profileicon\679.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\680.png">
+      <PackagePath>Images\profileicon\680.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\681.png">
+      <PackagePath>Images\profileicon\681.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\682.png">
+      <PackagePath>Images\profileicon\682.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\683.png">
+      <PackagePath>Images\profileicon\683.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\684.png">
+      <PackagePath>Images\profileicon\684.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\685.png">
+      <PackagePath>Images\profileicon\685.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\686.png">
+      <PackagePath>Images\profileicon\686.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\687.png">
+      <PackagePath>Images\profileicon\687.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\688.png">
+      <PackagePath>Images\profileicon\688.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\689.png">
+      <PackagePath>Images\profileicon\689.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\690.png">
+      <PackagePath>Images\profileicon\690.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\691.png">
+      <PackagePath>Images\profileicon\691.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\692.png">
+      <PackagePath>Images\profileicon\692.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\693.png">
+      <PackagePath>Images\profileicon\693.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\694.png">
+      <PackagePath>Images\profileicon\694.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\695.png">
+      <PackagePath>Images\profileicon\695.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\696.png">
+      <PackagePath>Images\profileicon\696.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\697.png">
+      <PackagePath>Images\profileicon\697.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\698.png">
+      <PackagePath>Images\profileicon\698.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\699.png">
+      <PackagePath>Images\profileicon\699.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\7.png">
+      <PackagePath>Images\profileicon\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\700.png">
+      <PackagePath>Images\profileicon\700.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\701.png">
+      <PackagePath>Images\profileicon\701.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\702.png">
+      <PackagePath>Images\profileicon\702.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\703.png">
+      <PackagePath>Images\profileicon\703.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\704.png">
+      <PackagePath>Images\profileicon\704.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\705.png">
+      <PackagePath>Images\profileicon\705.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\706.png">
+      <PackagePath>Images\profileicon\706.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\707.png">
+      <PackagePath>Images\profileicon\707.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\708.png">
+      <PackagePath>Images\profileicon\708.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\709.png">
+      <PackagePath>Images\profileicon\709.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\710.png">
+      <PackagePath>Images\profileicon\710.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\711.png">
+      <PackagePath>Images\profileicon\711.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\712.png">
+      <PackagePath>Images\profileicon\712.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\713.png">
+      <PackagePath>Images\profileicon\713.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\714.png">
+      <PackagePath>Images\profileicon\714.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\715.png">
+      <PackagePath>Images\profileicon\715.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\716.png">
+      <PackagePath>Images\profileicon\716.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\717.png">
+      <PackagePath>Images\profileicon\717.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\718.png">
+      <PackagePath>Images\profileicon\718.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\719.png">
+      <PackagePath>Images\profileicon\719.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\720.png">
+      <PackagePath>Images\profileicon\720.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\721.png">
+      <PackagePath>Images\profileicon\721.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\722.png">
+      <PackagePath>Images\profileicon\722.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\723.png">
+      <PackagePath>Images\profileicon\723.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\724.png">
+      <PackagePath>Images\profileicon\724.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\725.png">
+      <PackagePath>Images\profileicon\725.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\726.png">
+      <PackagePath>Images\profileicon\726.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\727.png">
+      <PackagePath>Images\profileicon\727.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\728.png">
+      <PackagePath>Images\profileicon\728.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\729.png">
+      <PackagePath>Images\profileicon\729.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\730.png">
+      <PackagePath>Images\profileicon\730.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\731.png">
+      <PackagePath>Images\profileicon\731.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\732.png">
+      <PackagePath>Images\profileicon\732.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\733.png">
+      <PackagePath>Images\profileicon\733.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\734.png">
+      <PackagePath>Images\profileicon\734.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\735.png">
+      <PackagePath>Images\profileicon\735.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\736.png">
+      <PackagePath>Images\profileicon\736.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\737.png">
+      <PackagePath>Images\profileicon\737.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\738.png">
+      <PackagePath>Images\profileicon\738.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\739.png">
+      <PackagePath>Images\profileicon\739.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\740.png">
+      <PackagePath>Images\profileicon\740.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\741.png">
+      <PackagePath>Images\profileicon\741.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\742.png">
+      <PackagePath>Images\profileicon\742.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\8.png">
+      <PackagePath>Images\profileicon\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\9.png">
+      <PackagePath>Images\profileicon\9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\profileicon\unknown.png">
+      <PackagePath>Images\profileicon\unknown.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\BRONZE_I.png">
+      <PackagePath>Images\ranked\BRONZE_I.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\BRONZE_II.png">
+      <PackagePath>Images\ranked\BRONZE_II.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\BRONZE_III.png">
+      <PackagePath>Images\ranked\BRONZE_III.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\BRONZE_IV.png">
+      <PackagePath>Images\ranked\BRONZE_IV.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\BRONZE_V.png">
+      <PackagePath>Images\ranked\BRONZE_V.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\CHALLENGER_I.png">
+      <PackagePath>Images\ranked\CHALLENGER_I.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\DIAMOND_I.png">
+      <PackagePath>Images\ranked\DIAMOND_I.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\DIAMOND_II.png">
+      <PackagePath>Images\ranked\DIAMOND_II.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\DIAMOND_III.png">
+      <PackagePath>Images\ranked\DIAMOND_III.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\DIAMOND_IV.png">
+      <PackagePath>Images\ranked\DIAMOND_IV.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\DIAMOND_V.png">
+      <PackagePath>Images\ranked\DIAMOND_V.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\GOLD_I.png">
+      <PackagePath>Images\ranked\GOLD_I.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\GOLD_II.png">
+      <PackagePath>Images\ranked\GOLD_II.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\GOLD_III.png">
+      <PackagePath>Images\ranked\GOLD_III.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\GOLD_IV.png">
+      <PackagePath>Images\ranked\GOLD_IV.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\GOLD_V.png">
+      <PackagePath>Images\ranked\GOLD_V.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\MASTER_I.png">
+      <PackagePath>Images\ranked\MASTER_I.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\PLATINUM_I.png">
+      <PackagePath>Images\ranked\PLATINUM_I.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\PLATINUM_II.png">
+      <PackagePath>Images\ranked\PLATINUM_II.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\PLATINUM_III.png">
+      <PackagePath>Images\ranked\PLATINUM_III.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\PLATINUM_IV.png">
+      <PackagePath>Images\ranked\PLATINUM_IV.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\PLATINUM_V.png">
+      <PackagePath>Images\ranked\PLATINUM_V.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\SILVER_I.png">
+      <PackagePath>Images\ranked\SILVER_I.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\SILVER_II.png">
+      <PackagePath>Images\ranked\SILVER_II.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\SILVER_III.png">
+      <PackagePath>Images\ranked\SILVER_III.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\SILVER_IV.png">
+      <PackagePath>Images\ranked\SILVER_IV.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\SILVER_V.png">
+      <PackagePath>Images\ranked\SILVER_V.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\ranked\unknown.png">
+      <PackagePath>Images\ranked\unknown.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\series\lose.png">
+      <PackagePath>Images\series\lose.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\series\null.png">
+      <PackagePath>Images\series\null.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\series\win.png">
+      <PackagePath>Images\series\win.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\spells\1.png">
+      <PackagePath>Images\spells\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\spells\10.png">
+      <PackagePath>Images\spells\10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\spells\11.png">
+      <PackagePath>Images\spells\11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\spells\12.png">
+      <PackagePath>Images\spells\12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\spells\13.png">
+      <PackagePath>Images\spells\13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\spells\14.png">
+      <PackagePath>Images\spells\14.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\spells\17.png">
+      <PackagePath>Images\spells\17.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\spells\2.png">
+      <PackagePath>Images\spells\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\spells\21.png">
+      <PackagePath>Images\spells\21.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\spells\3.png">
+      <PackagePath>Images\spells\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\spells\4.png">
+      <PackagePath>Images\spells\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\spells\6.png">
+      <PackagePath>Images\spells\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\spells\7.png">
+      <PackagePath>Images\spells\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\large.png">
+      <PackagePath>large.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\medio.png">
+      <PackagePath>medio.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\small.png">
+      <PackagePath>small.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\statsicon.png">
+      <PackagePath>statsicon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Toolkit.Content\ApplicationBar.Add.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Add.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Toolkit.Content\ApplicationBar.Cancel.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Cancel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Toolkit.Content\ApplicationBar.Check.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Check.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Toolkit.Content\ApplicationBar.Delete.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Delete.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Toolkit.Content\ApplicationBar.Select.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Select.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Images\background.jpg">
+      <PackagePath>Images\background.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\README_FIRST.txt">
+      <PackagePath>README_FIRST.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alisson\Compartilhado\LoL Stats\Bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

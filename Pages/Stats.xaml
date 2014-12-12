@@ -1,0 +1,80 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="LoL_Stats.Pages.Stats"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/background.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <Grid Grid.Row="0" Margin="12,17,0,0" Height="200">
+            <TextBlock Text="LoL Stats" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0,12,172"/>
+            <Image x:Name="profileIcon" Margin="10,42,356,48"/>
+            <Image x:Name="rank" Margin="104,92,264,28"/>
+            <TextBlock x:Name="StatsTitle" Text="Summoner's Name" Margin="119,33,10,113" Style="{StaticResource PhoneTextTitle1Style}" FontSize="40" RenderTransformOrigin="0.496,0.094"/>
+            <TextBlock x:Name="txtLevel" Text="Level: " Margin="122,80,79,98" FontSize="17"/>
+            <TextBlock x:Name="txtRank" Margin="191,102,12,71" FontSize="20"/>
+            <Image x:Name="serie0" Margin="191,129,245,31"/>
+            <Image x:Name="serie1" Margin="228,129,208,31"/>
+            <Image x:Name="serie2" Margin="265,129,171,31"/>
+            <Image x:Name="serie3" Margin="302,129,134,31"/>
+            <Image x:Name="serie4" Margin="339,129,97,31"/>
+        </Grid>
+
+        <StackPanel x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <ListBox x:Name="lstStats" Height="550">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Height="150">
+                            <!--win-->
+                            <TextBlock Text="{Binding win}" FontSize="22" Foreground="Gold" Margin="0,0,385,121"/>
+                            <!--sub type-->
+                            <TextBlock Text="{Binding subType}" Margin="0,27,255,97" FontSize="18"/>
+                            <!--KDA and Gold-->
+                            <TextBlock Text="   K    D    A   " Margin="135,46,201,77" HorizontalAlignment="Center"/>
+                            <TextBlock Text="{Binding kill}" Margin="142,73,285,53" HorizontalAlignment="Center"/>
+                            <TextBlock Text="{Binding death}" Margin="180,73,247,53" HorizontalAlignment="Center"/>
+                            <TextBlock Text="{Binding assist}" Margin="218,73,209,53" HorizontalAlignment="Center"/>
+                            <TextBlock Text="Gold" Margin="177,97,236,28" HorizontalAlignment="Center"/>
+                            <TextBlock Text="{Binding gold}" Margin="164,122,224,0" HorizontalAlignment="Center"/>
+                            <!--champion icon-->
+                            <Image Source="{Binding champion}" Margin="0,56,371,7" Height="87"/>
+                            <!--spells-->
+                            <Image Source="{Binding spell1}" Margin="90,56,326,53"/>
+                            <Image Source="{Binding spell2}" Margin="90,102,326,8"/>
+                            <!--itens-->
+                            <Image Source="{Binding item0}" Margin="260,55,153,53"/>
+                            <Image Source="{Binding item1}" Margin="308,55,105,53"/>
+                            <Image Source="{Binding item2}" Margin="356,55,57,53"/>
+                            <Image Source="{Binding item3}" Margin="260,102,153,6"/>
+                            <Image Source="{Binding item4}" Margin="308,102,105,6"/>
+                            <Image Source="{Binding item5}" Margin="356,102,57,6"/>
+                            <Image Source="{Binding item6}" Margin="404,75,9,33"/>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+
+
+        </StackPanel>
+    </Grid>
+
+</phone:PhoneApplicationPage>
